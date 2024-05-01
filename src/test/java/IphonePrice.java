@@ -22,6 +22,8 @@ public class IphonePrice {
 	   // driver.findElement(By.xpath("//div[text()='APPLE iPhone 14 (Starlight, 128 GB)']/parent::div/parent::div/child::div[@class='col col-5-12 nlI3QM']/descendant::div[@class='_30jeq3 _1_WHN1']")).click();
        driver.findElement(By.xpath("//div[contains(text(),'APPLE iPhone 15 Pro Max (White Titanium, 512 GB)')]/parent::div/parent::div/child::div[@class='col col-5-12 nlI3QM']/descendant::div[@class='_30jeq3 _1_WHN1']")).click();
 	    driver.quit();
+		System.out.println("hello 4 ");
+
 	}
 
 }
